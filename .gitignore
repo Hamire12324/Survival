@@ -12,6 +12,7 @@
 #
 .utmp/
 /[Ll]ibrary/
+/Archive/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
