@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1a36e8b746e4ce1a5ef7d0356772e99, type: 3}
+  m_Name: HeroBasicAttackShot
+  damageData:
+    BaseDamage: 10
+    CanCrit: 0
+    CausesHitStun: 0
+    HitStunDuration: 0.2
+    HitStunImmunityDuration: 0.75
+    IgnoresHitStunImmunity: 0
+    InterruptsAttack: 1
+  angleOffsets: [-15, 0, 15]
+  spawnDelay: 0

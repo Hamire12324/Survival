@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1a1a1a1a1a4a1a8a1a1a1a1a1a1a1a, type: 3}
+  m_Name: RogueEnemyBasicAttack
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterSkillDefinition
+  skillId: rogue_enemy_basic_attack
+  displayName: Poison Shot
+  cooldown: 1
+  effects:
+  - {fileID: 11400000, guid: 4d1cbee3f03b4d31ab9a68f3e1ae4c71, type: 2}

@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb87b6603c5482bbac07f3d5a82f66c, type: 3}
+  m_Name: UiUnavailableCue
+  m_EditorClassIdentifier: Assembly-CSharp::AudioCue
+  clip: {fileID: 8300000, guid: ada577b01da77214080eaaf4290194d5, type: 3}
+  volume: 0.2
+  minimumPitch: 0.5
+  maximumPitch: 0.6
+  spatialBlend: 0

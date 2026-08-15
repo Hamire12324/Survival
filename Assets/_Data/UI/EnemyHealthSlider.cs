@@ -1,0 +1,3 @@
+public class EnemyHealthSlider : CharacterHealthSliderAbstract
+{
+}

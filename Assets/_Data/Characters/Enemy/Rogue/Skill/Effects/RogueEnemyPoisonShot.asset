@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6aeb8d0f0f8a4617ab64a4d5b970cf16, type: 3}
+  m_Name: RogueEnemyPoisonShot
+  m_EditorClassIdentifier: Assembly-CSharp::RogueEnemyPoisonProjectileEffect
+  projectilePrefab: {fileID: 2005, guid: 4c1ca68acfb944d2af0f0be9ab5531ad, type: 3}
+  poisonDamage:
+    BaseDamage: 30
+    CanCrit: 0
+    CausesHitStun: 0
+    HitStunDuration: 0.2
+    HitStunImmunityDuration: 0.75
+    IgnoresHitStunImmunity: 0
+    InterruptsAttack: 0
+  spawnOffset: {x: 0, y: 1, z: 0.6}
