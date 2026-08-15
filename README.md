@@ -10,6 +10,10 @@
 2. Mở scene `Assets/Scenes/GamePlay.unity`.
 3. Nhấn Play trong Unity Editor.
 
+## Video demo
+
+Trong video demo, sát thương đã được tăng để việc kiểm thử các tính năng combat diễn ra nhanh và dễ quan sát hơn.
+
 ## Điều khiển
 
 Di chuyển: WASD, phím mũi tên, tay cầm trái hoặc joystick ảo |
