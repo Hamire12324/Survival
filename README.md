@@ -1,5 +1,3 @@
-Prototype game survival góc nhìn từ trên xuống, thực hiện bằng Unity theo bài test Mid Core của Wolffun.
-
 ## Thông tin dự án
 
 - Unity: `6000.4.2f1` (Unity 6.4 LTS)
@@ -48,34 +46,6 @@ Hướng bắn và dash sử dụng hướng forward hiện tại của nhân v�
 - Có audio và camera shake cho các sự kiện combat chính.
 
 ## Tổ chức và khả năng mở rộng
-
-- Scripts character được tổ chức theo vai trò:
-
-```text
-Assets/_Data/Characters/
-├── Shared/                 # Thành phần dùng chung cho mọi character
-├── Faction/                # Quan hệ phe
-├── Enemy/
-│   ├── Common/Scripts/     # AI và logic dùng chung của enemy
-│   │   ├── Combat/
-│   │   ├── Core/
-│   │   ├── Damage/
-│   │   ├── Movement/
-│   │   ├── Progression/
-│   │   ├── Skill/
-│   │   └── Stats/
-│   ├── Melee/Scripts/      # Khác biệt của enemy melee
-│   └── Rogue/Scripts/      # Khác biệt của enemy ranged/poison
-└── Ranger/
-    ├── Scripts/            # Logic đặc thù của player
-    │   ├── Core/
-    │   ├── Damage/
-    │   ├── Movement/
-    │   ├── Progression/
-    │   └── Stats/
-    ├── Combat/
-    └── Skill/
-```
 
 - Chỉ số và skill được tách thành component Inspector và ScriptableObject trong `Assets/_Data/Characters/**/Skill`, thuận tiện để tuning mà không cần sửa luồng gameplay.
 - Enemy, projectile, bomb và VFX sử dụng `PoolManager` để tái sử dụng object.
